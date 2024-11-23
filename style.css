@@ -1,0 +1,103 @@
+*{
+   font-family: inter;
+  
+}
+/*  Header */
+#headerDiv{
+    color:#ffffff;    
+    background-color:  #303030;
+    padding: 5% 0% 7% 4%; 
+    
+}
+
+#headerDiv h1{
+    font-weight: 500;
+    margin-bottom: 1px;
+    font-size: 51px;
+}
+
+#headerDiv p{
+    padding: 0%;
+    font-size: 31px;
+}
+
+/* Subheader */
+#subHeaderDiv{
+    background-color: #F9F9F9;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 3% 3% 0%;
+    text-align: left;
+    
+}
+
+#subHeaderDiv h3 {
+  font-size:35px;
+  margin-bottom: 0%;
+    
+}
+#subHeaderDiv p {
+    font-size: 31px;
+    margin-top: 1px;
+      
+  }
+
+#subHeaderDiv p{
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+/* Info banner */
+#infoDiv{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    padding:2% 2% 2% 0%;
+    justify-content: space-Evenly;
+      align-items: center;
+      font-size: x-large;
+}
+
+#imgDiv {
+    align-items: right;
+}
+
+
+
+
+/* Form */
+#formDiv{
+    background-color: #303030;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 1% 7% 1% ; 
+}
+
+input{
+    margin: 25px 15px;
+    width: 45%;
+    height: 55px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: larger;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 11px;
+    height: 55px;
+    width: 21%;
+    margin-top: 51px;
+    font-size: 25px;
+    font-weight:400;
+    padding: 5px;
+    
+
+}
